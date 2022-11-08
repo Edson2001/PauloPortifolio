@@ -37,6 +37,7 @@ nav.menu{
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
+    position: relative;
     ul{
         display: flex;
         align-items: center;
@@ -96,7 +97,6 @@ a.button{
             &::after{
                 content: '|';
                 animation: seta 1s ease infinite;
-                
             }
         }
         img{
@@ -286,6 +286,14 @@ a.button{
     }
 }
 @media (max-width: 892px) {
+    .menuMobile{
+        display: block !important;
+    }
+    nav.menu{
+        ul{
+            display: none;
+        }
+    }
     .homeSection{
         flex-direction: column;
         article{
@@ -298,5 +306,32 @@ a.button{
 @media (max-width: 500px) {
     .homeSection{
         padding: 10px;
+    }
+    nav{
+        padding: 10px;
+    }
+}
+.menuMobile{
+    display: none;
+    &:hover{
+        cursor: pointer;
+    }
+    
+    position: relative;
+    background-color: $secondaryColor;
+    width: 24px;
+    height: 2px;
+    
+    &::after, &::before{
+        background-color: $secondaryColor;
+        width: 24px;
+        height: 2px;
+        position: absolute;
+        top: 6px;
+        content: ''; 
+    }
+    
+    &::before{
+        top: -6px;
     }
 }

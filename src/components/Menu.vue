@@ -4,6 +4,7 @@
         <h1>
             <a href="">Paulo Lopes</a>
         </h1>
+        <div class="menuMobile"></div>
         <ul>
             <li>
                 <a @click.prevent="$emit('changePage', 'home')" href="">Home</a>
