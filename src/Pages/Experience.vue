@@ -2,5 +2,5 @@
 import Content from "../components/Experience/Content.vue"
 </script>
 <template>
-    <Content />
+    <Content  />
 </template>

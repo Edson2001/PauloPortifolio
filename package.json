@@ -9,6 +9,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@splidejs/vue-splide": "^0.6.12",
+    "animate.css": "^4.1.1",
     "pinia": "^2.0.23",
     "vue": "^3.2.41"
   },

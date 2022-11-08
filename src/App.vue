@@ -1,17 +1,14 @@
 <script setup lang="ts">
 
 import Menu from './components/Menu.vue'
-import RouteSite from './routes/Route.vue';
-import {ref} from "vue"
+import RouteSite from './routes/Route.vue'
+
 import {pageStore} from "./store"
-import {storeToRefs} from "pinia"
-const Page = ref('home')
+
 const store = pageStore()
-const {page} = storeToRefs(pageStore)
-console.log(page)
-const changePage  =  (page: string)=>{
-  Page.value = page
-  
+
+const changePage  =  (next: string)=>{
+  store.$patch({page: next}) 
 }
 
 </script>
@@ -19,6 +16,6 @@ const changePage  =  (page: string)=>{
 <template>
  <div class="container">
   <Menu @changePage="changePage" />
-  <RouteSite :route="Page" />
+  <RouteSite />
  </div>
 </template>

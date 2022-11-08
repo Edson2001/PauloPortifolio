@@ -71,6 +71,11 @@ a.button{
     text-align: center;
 }
 
+@keyframes seta {
+    to{
+        opacity: 0;
+    }
+}
 .homeSection{
     display: flex;
     align-items: center;
@@ -88,6 +93,11 @@ a.button{
             line-height: 84px;
             max-width: 400px;
             margin-bottom: 20px;
+            &::after{
+                content: '|';
+                animation: seta 1s ease infinite;
+                
+            }
         }
         img{
             max-width: 500px;
@@ -273,5 +283,20 @@ a.button{
             color: #000;
         }
         background-color: $primaryColor;
+    }
+}
+@media (max-width: 892px) {
+    .homeSection{
+        flex-direction: column;
+        article{
+            &:first-child{
+                order: 1;
+            }
+        }
+    }
+}
+@media (max-width: 500px) {
+    .homeSection{
+        padding: 10px;
     }
 }

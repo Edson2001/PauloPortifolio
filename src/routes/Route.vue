@@ -1,19 +1,18 @@
 <script lang="ts" setup>
-import {ref} from "vue"
-import { Sobre, Blog, Home, Portifolio, Techs, Experience} from "./"
-const props = defineProps([
-    'route'
-])
-console.log(props.route)
-const Page = ref(props.route)
-</script>
-<template>
 
-  <Sobre   v-if="Page === 'sobre'" />  
-  <Home    v-if="Page === 'home'" /> 
-  <Portifolio  v-if="Page === 'portifolio'" />
-  <Techs  v-if="Page === 'techs'" /> 
-  <Experience v-if="Page === 'experience'" />
-  <Blog v-if="Page === 'blog'" />
-  
+import { Sobre, Blog, Home, Portifolio, Techs, Experience} from "./"
+
+import {pageStore} from "../store"
+
+const store = pageStore()
+
+</script>
+
+<template>
+  <Sobre class="animate__animated  animate__backInRight" v-if="store.page === 'sobre'" />  
+  <Home class="animate__animated  animate__backInRight" v-if="store.page === 'home'" /> 
+  <Portifolio  class="animate__animated  animate__backInRight" v-if="store.page === 'portifolio'" />
+  <Techs class="animate__animated  animate__backInRight" v-if="store.page === 'techs'" /> 
+  <Experience class="animate__animated  animate__backInRight" v-if="store.page === 'experience'" />
+  <Blog class="animate__animated  animate__backInRight" v-if="store.page === 'blog'" />
 </template>
