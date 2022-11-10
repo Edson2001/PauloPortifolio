@@ -1,0 +1,34 @@
+.experienceSection{
+    .experienceFirstDiv{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+        align-items: center;
+        p{
+            text-align: right;
+            max-width: 240px;
+        }
+        h2{
+            margin-left: 102px;
+            span{
+                font-weight: 900;
+                font-size: 64px;
+                display: block;
+                &:last-child{
+                    color: #000;
+                }
+            }
+        }
+    }
+   .experiences{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 44px;
+   }
+   article{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+   }
+}

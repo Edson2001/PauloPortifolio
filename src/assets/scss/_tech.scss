@@ -1,0 +1,37 @@
+.techsSection{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    h2{
+        font-weight: 900;
+        font-size: 64px;
+        margin-bottom: 60px;
+        span{
+            color: $secondaryColor;
+        }
+    }
+    p{
+        font-weight: 500;
+    }
+    .techsUsed{
+        font-size: 25px;
+        font-weight: 900;
+        margin-top: 12px;
+        span{
+            color: #000;
+        }
+    }
+    ul{
+        width: 400px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin-top: 22px;
+        margin-bottom: 52px;
+    }
+    img{
+        max-width: 50px;
+    }
+}

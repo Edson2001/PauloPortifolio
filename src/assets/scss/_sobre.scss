@@ -1,0 +1,29 @@
+.sobreSection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    p.sobreDescription{
+        max-width: 800px;
+        text-align: center;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 28px;
+    }
+    h2, p.sobreDescription{
+        margin-top: 22px;
+    }
+    h2{
+        font-weight: 900;
+        font-size: 64px;
+        line-height: 75px;
+        span{
+            color: $secondaryColor !important;
+        }
+    }
+    img{
+        max-width: 180px;
+        height: auto;
+        border: 5px solid $secondaryColor;
+        border-radius: 50%;
+    }
+}

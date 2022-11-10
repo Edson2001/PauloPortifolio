@@ -1,0 +1,45 @@
+.portifolioSection{
+    .portifolioInfo{
+        div{
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        span, h2{
+            font-weight: 900;
+            font-size: 64px;
+            line-height: 75px;
+        }
+        h2{
+            margin-right: 91px;
+        }
+        p{
+            max-width: 280px;
+            font-weight: 500;
+        }
+        span{
+            color: $secondaryColor;
+        }
+        margin-bottom: 99px;
+    }
+    ul{
+        display: flex;
+        align-items: center;
+        li{
+            font-weight: 900;
+            padding: 10px;
+            border-radius: 10px;
+            margin-right: 12px;
+            background-color: $colorCard;
+            a{
+                color: $primaryColor;
+            }
+        }
+        li.active{
+            background-color: $secondaryColor;
+            a{
+                color: #FFF;
+            }
+        }
+    }
+}
