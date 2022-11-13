@@ -1,5 +1,5 @@
 <script lang="ts" setup>
-    import Card from './Card.vue'
+    import Card from '../Card.vue'
     import { Splide, SplideSlide } from '@splidejs/vue-splide'
 </script>
 <template >

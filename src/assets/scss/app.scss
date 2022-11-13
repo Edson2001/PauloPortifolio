@@ -28,6 +28,7 @@ a, a:hover{
     max-width: 1150px;
     width: 100%;
     margin: 0 auto;
+    padding: 10px;
 }
 
 nav.menu{
@@ -38,6 +39,7 @@ nav.menu{
     align-items: center;
     flex-wrap: wrap;
     position: relative;
+    
     ul{
         display: flex;
         align-items: center;
@@ -118,6 +120,12 @@ a.button{
         article{
             &:first-child{
                 order: 1;
+            }
+            h3{
+                text-align: center;
+                font-size: 30px;
+                max-width: 466px;
+                
             }
         }
     }
