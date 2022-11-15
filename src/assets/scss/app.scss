@@ -91,9 +91,21 @@ a.button{
     max-width: 350px;
     padding: 20px;
     text-align: center;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-position: 100%;
+    background-size: cover;
     h3{
         color: $primaryColor;
         margin-bottom: 22px;
+    }
+    h4{
+        font-weight: 900;
+        font-size: 26px;
+        color: #FFF;
+        margin-bottom: 12px;
     }
     p{
         color: #FFF;
@@ -161,3 +173,4 @@ a.button{
         top: -6px;
     }
 }
+ 

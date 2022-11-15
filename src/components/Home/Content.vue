@@ -40,7 +40,7 @@ for(let i = 0; i < textArray.length; i++){
 
         </article>
         <article>
-            <img src="/images/Home_art 1.svg" alt="">
+            <img src="/images/Home_art_1.svg" alt="">
         </article>
     </section>
 </template>

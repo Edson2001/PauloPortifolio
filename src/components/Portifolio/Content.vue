@@ -1,6 +1,7 @@
 <script lang='ts' setup>
 import Card from "../Card.vue"
 import { Splide, SplideSlide } from '@splidejs/vue-splide'
+const imgCard = "https://static1.srcdn.com/wordpress/wp-content/uploads/2022/08/Robert-Pattinson-in-The-Batman-with-Batarang.jpg"
 </script>
 <template >
     <section class="portifolioSection">
