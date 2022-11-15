@@ -17,7 +17,7 @@
             <Splide :options="{ rewind: true, perPage: 3 }" aria-label="My Favorite Images">
                 <SplideSlide v-for="item in 5" >
                     <Card>
-                        <h3>Cargo</h3>
+                        <h4>Cargo</h4>
                         <p>
                             Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
                         </p>
