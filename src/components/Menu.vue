@@ -2,7 +2,7 @@
 
     <nav class="menu">
         <h1>
-            <a href="">Paulo Lopes</a>
+            <a href="">Paulo Lopes Estevão</a>
         </h1>
         <div class="menuMobile"></div>
         <ul>
