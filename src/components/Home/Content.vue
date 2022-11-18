@@ -2,7 +2,7 @@
 <script lang="ts" setup>
 import {ref} from "vue"
 
-let text = "Eu sou um programador"
+let text = "Software Engineer"
 let tema = ref('')
 let textArray = text.split('')
 
@@ -16,10 +16,10 @@ for(let i = 0; i < textArray.length; i++){
 <template >
     <section class="homeSection">
         <article>
-            <span>Olá Pessoas,</span>
+            <!-- <span>Olá Pessoas,</span> -->
             <h3>{{tema}}</h3>
-            <span>Seja bem vindo ao meu portifólio</span>
-            <a href=""  class="button" >Saiba mais sobre  mim</a>
+            <span>Welcome to my portfolio</span>
+            <a href=""  class="button">Learn more about me</a>
             <ul>
                 <li>
                     <a href="">

@@ -1,6 +1,6 @@
 <template >
     <section class="sobreSection">
-        <img src="/images/39365797.jpg" alt="">
+        <img src="/images/ple.jpeg" alt="">
         <h2>Paulo <span>Lopes Estevão</span></h2>
         <p class="sobreDescription">
             My name is Matheus Amauri de Jesus Campos 👋
