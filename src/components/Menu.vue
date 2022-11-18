@@ -10,10 +10,10 @@
                 <a @click.prevent="$emit('changePage', 'home')" href="">Home</a>
             </li>
             <li>
-                <a @click.prevent="$emit('changePage', 'sobre')" href="">Sobre</a>
+                <a @click.prevent="$emit('changePage', 'sobre')" href="">about</a>
             </li>
             <li>
-                <a @click.prevent="$emit('changePage', 'portifolio')" href="">Portifólio</a>
+                <a @click.prevent="$emit('changePage', 'portifolio')" href="">Portfolio</a>
             </li>
             <li>
                 <a @click.prevent="$emit('changePage', 'techs')" href="">Techs</a>
@@ -21,9 +21,9 @@
             <li>
                 <a @click.prevent="$emit('changePage', 'blog')" href="">Blog</a>
             </li>
-            <li>
-                <a @click.prevent="$emit('changePage', 'experience')" href="">Experiências</a>
-            </li>
+            <!-- <li>
+                <a @click.prevent="$emit('changePage', 'experience')" href="">Experiences</a>
+            </li> -->
         </ul>
     </nav>
 
