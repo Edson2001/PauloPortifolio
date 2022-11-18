@@ -11,7 +11,7 @@ import { Splide, SplideSlide } from '@splidejs/vue-splide'
                 <p>Estes são alguns dos conteúdos que já partilhei</p>
             </div>
        </div>
-       <ul>
+       <!-- <ul>
             <li class="active">
                 <a href="">Todos</a>
             </li>
@@ -24,7 +24,7 @@ import { Splide, SplideSlide } from '@splidejs/vue-splide'
             <li>
                 <a href="">Outros</a>
             </li>
-       </ul>
+       </ul> -->
 
        <div class="portifolioList">
             <Splide :options="{ rewind: true, perPage: 3 }" aria-label="My Favorite Images">

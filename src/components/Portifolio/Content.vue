@@ -12,7 +12,7 @@ const imgCard = "https://static1.srcdn.com/wordpress/wp-content/uploads/2022/08/
                 <p>Estes são alguns dos trabalhos e  projetos que já realizei</p>
             </div>
        </div>
-       <ul>
+       <!-- <ul>
             <li class="active">
                 <a href="">Todos</a>
             </li>
@@ -25,7 +25,7 @@ const imgCard = "https://static1.srcdn.com/wordpress/wp-content/uploads/2022/08/
             <li>
                 <a href="">Outros</a>
             </li>
-       </ul>
+       </ul> -->
 
         <div class="portifolioList">
             <Splide :options="{ rewind: true, perPage: 3 }" aria-label="My Favorite Images">
