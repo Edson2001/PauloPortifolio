@@ -22,17 +22,17 @@ for(let i = 0; i < textArray.length; i++){
             <a href=""  class="button">Learn more about me</a>
             <ul>
                 <li>
-                    <a href="">
+                    <a href="https://github.com/Paulo-Lopes-Estevao">
                         <img src="/images/Git.svg" alt="">
                     </a>
                 </li>
                 <li>
-                    <a href="">
+                    <a href="https://www.instagram.com/paulo_lopes_estevao/?hl=af">
                         <img src="/images/Instagram.svg" alt="">
                     </a>
                 </li>
                 <li>
-                    <a href="">
+                    <a href="https://www.linkedin.com/in/paulo-lopes-estev%C3%A3o-7a70881b4/">
                         <img src="/images/Linkedin.svg" alt="">
                     </a>
                 </li>
