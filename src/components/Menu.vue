@@ -12,9 +12,9 @@
             <li>
                 <a @click.prevent="$emit('changePage', 'sobre')" href="">about</a>
             </li>
-            <li>
+            <!-- <li>
                 <a @click.prevent="$emit('changePage', 'portifolio')" href="">Portfolio</a>
-            </li>
+            </li> -->
             <li>
                 <a @click.prevent="$emit('changePage', 'techs')" href="">Techs</a>
             </li>
