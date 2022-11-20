@@ -42,7 +42,7 @@ function changePage(page:string){
                 <a @click.prevent="changePage('techs')" href="">Techs</a>
             </li>
             <li>
-                <a @click.prevent="$emit('blog')" href="">Blog</a>
+                <a @click.prevent="changePage('blog')" href="">Blog</a>
             </li>
             <!-- <li>
                 <a @click.prevent="$emit('changePage', 'experience')" href="">Experiences</a>
