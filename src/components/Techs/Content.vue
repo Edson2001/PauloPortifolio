@@ -351,11 +351,11 @@
             </li>
         </ul>
 
-        <!-- <p class="techsUsed">#  <span>Certificate</span></p>
+        <p class="techsUsed">#  <span>Certificate</span></p>
         <ul>
             <li v-for="(item, index) in certificate" :key="index">
                 <img :src="item.img" alt="">
             </li> 
-        </ul>-->
+        </ul>
     </section>
 </template>
