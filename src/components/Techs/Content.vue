@@ -2,12 +2,16 @@
 
     const used = [
         {
-            img: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg'
+            name: 'php',
+            img: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg',
+            link: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg'
         },
         {
+            name: 'php',
             img: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg'
         },
         {
+            name: 'php',
             img: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg'
         },
         {
@@ -165,103 +169,7 @@
         },
         {
             img: 'https://github.com/Paulo-Lopes-Estevao/Paulo-Lopes-Estevao/raw/main/skilz/file_type_kivy_icon_130489.svg'
-        },
-        {
-            img: ''
-        },
-        {
-            img: ''
-        },
-        {
-            img: ''
-        },
-        {
-            img: ''
-        },
-        {
-            img: ''
-        },
-        {
-            img: ''
-        },
-        {
-            img: ''
-        },
-        {
-            img: ''
-        },
-        {
-            img: ''
-        },
-        {
-            img: ''
-        },
-        {
-            img: ''
-        },
-        {
-            img: ''
-        },
-        {
-            img: ''
-        },
-        {
-            img: ''
-        },
-        {
-            img: ''
-        },
-        {
-            img: ''
-        },
-        {
-            img: ''
-        },
-        {
-            img: ''
-        },
-        {
-            img: ''
-        },
-        {
-            img: ''
-        },
-        {
-            img: ''
-        },
-        {
-            img: ''
-        },
-        {
-            img: ''
-        },
-        {
-            img: ''
-        },
-        {
-            img: ''
-        },
-        {
-            img: ''
-        },
-        {
-            img: ''
-        },
-        {
-            img: ''
-        },
-        {
-            img: ''
-        },
-        {
-            img: ''
-        },
-        {
-            img: ''
-        },
-        {
-            img: ''
-        },
+        }
     ]   
 
     const certificate = [
@@ -270,9 +178,6 @@
         },
         {
             img: 'https://www.schoolofnet.com/validar-certificado/validate/number/cd99cf6b-fbb1-42ae-8818-1a2a662491ef/'
-        },
-        {
-            img: ''
         },
         {
             img: 'https://portal.fullcycle.com.br/certificado/9301f21e-68f7-43b4-928e-6432965a08ab/png'
@@ -286,55 +191,6 @@
         {
             img: 'https://portal.fullcycle.com.br/certificado/0fd8e1fb-9103-4013-98b1-c194347de832/png'
         },
-        {
-            img: ''
-        },
-        {
-            img: ''
-        },
-        {
-            img: ''
-        },
-        {
-            img: ''
-        },
-        {
-            img: ''
-        },
-        {
-            img: ''
-        },
-        {
-            img: ''
-        },
-        {
-            img: ''
-        },
-        {
-            img: ''
-        },
-        {
-            img: ''
-        },
-        {
-            img: ''
-        },
-        {
-            img: ''
-        },
-        {
-            img: ''
-        },
-        {
-            img: ''
-        },
-        {
-            img: ''
-        },
-        {
-            img: ''
-        },
-
     ]
 
 </script>
@@ -347,12 +203,15 @@
         
         <ul>
             <li v-for="(item, index) in used" :key="index" >
-                <img :src="item.img" alt="">
+                <a target="_blank" style="display: flex; flex-direction: column; justify-content: center;text-align: center;align-items: center;" :href="item.link">
+                    <img style="margin-bottom: 12px;" :src="item.img" alt="">
+                    <span>{{item.name}}</span>
+                </a>
             </li>
         </ul>
 
         <p class="techsUsed">#  <span>Certificate</span></p>
-        <ul>
+        <ul class="certificates">
             <li v-for="(item, index) in certificate" :key="index">
                 <img :src="item.img" alt="">
             </li> 

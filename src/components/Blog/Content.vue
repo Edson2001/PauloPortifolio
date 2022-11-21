@@ -19,7 +19,7 @@ const posts = [
     {
         title: 'Titulo do projecto',
         description: 'Pequena descrição, Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates ducimus quos velit facilis.',
-        img: 'https://maximomussini.com/assets/a-rubyist-guide-to-vite-js.1320b44c.jpeg'
+        img: 'https://uploads.sitepoint.com/wp-content/uploads/2021/04/1618197067vitejs.png'
     },
     {
         title: 'Titulo do projecto',

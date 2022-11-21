@@ -41,3 +41,19 @@
         max-width: 50px;
     }
 }
+.certificates{
+    li{
+        flex: 0 1 358px !important;
+    }
+    img{
+        max-width: 320px;
+        height: 226px;
+        &:hover{
+            transition: all 0.7s ease;
+            height: 240px;
+            max-width: 380px;
+            transform: scale(1.5);
+            cursor: pointer;
+        }
+    }
+}
