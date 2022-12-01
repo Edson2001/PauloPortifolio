@@ -55,20 +55,6 @@ function limitString(text: string, limit: number){
                 <p>Estes são alguns dos conteúdos que já partilhei</p>
             </div>
        </div>
-       <!-- <ul>
-            <li class="active">
-                <a href="">Todos</a>
-            </li>
-            <li>
-                <a href="">Web app</a>
-            </li>
-            <li>
-                <a href="">Data Analysis</a>
-            </li>
-            <li>
-                <a href="">Outros</a>
-            </li>
-       </ul> -->
 
        <div class="portifolioList">
             <Splide :options="options" aria-label="My Favorite Images">
