@@ -2,16 +2,16 @@
 
     const used = [
         {
-            name: 'php',
+            name: 'Golang',
             img: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg',
             link: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg'
         },
         {
-            name: 'php',
+            name: 'Python',
             img: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg'
         },
         {
-            name: 'php',
+            name: 'Csharp',
             img: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg'
         },
         {
@@ -174,7 +174,7 @@
 
     const certificate = [
         {
-            img: 'https://portal.fullcycle.com.br/certificado/a690d548-ccd4-4ff0-9491-04a49eaeb6dd/png'
+            img: 'https://github.com/Paulo-Lopes-Estevao/PauloPortifolio/blob/main/public/images/certificate/5b396c1d9c7fed272d5327d2b50db456.png'
         },
         {
             img: 'https://www.schoolofnet.com/validar-certificado/validate/number/cd99cf6b-fbb1-42ae-8818-1a2a662491ef/'
