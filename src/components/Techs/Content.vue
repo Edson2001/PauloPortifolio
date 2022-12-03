@@ -174,59 +174,59 @@
 
     const certificate = [
         {
-            img: 'public/images/certificate/awsforgate.jpeg'
+            img: 'images/certificate/awsforgate.jpeg'
         },
         {
-            img: 'public/images/certificate/5b396c1d9c7fed272d5327d2b50db456.png'
+            img: 'images/certificate/5b396c1d9c7fed272d5327d2b50db456.png'
         },
         {
-            img: 'public/images/certificate/504344F3.jpg'
+            img: 'images/certificate/504344F3.jpg'
         },
         {
-            img: 'public/images/certificate/UC-e8a215a8-4253-4379-8d2d-722045880aac.jpg'
+            img: 'images/certificate/UC-e8a215a8-4253-4379-8d2d-722045880aac.jpg'
         },
         {
-            img: 'public/images/certificate/C8CC1E5B.jpg'
+            img: 'images/certificate/C8CC1E5B.jpg'
         },
         {
-            img: 'public/images/certificate/UC-bae3c7ef-fe35-4e47-8f76-1f0e1a1241fd.jpg'
+            img: 'images/certificate/UC-bae3c7ef-fe35-4e47-8f76-1f0e1a1241fd.jpg'
         },
         {
-            img: 'public/images/certificate/ci.png'
+            img: 'images/certificate/ci.png'
         },
         {
-            img: 'public/images/certificate/UC-262d0779-7d2a-40ca-94a2-5196a6472432.jpg'
+            img: 'images/certificate/UC-262d0779-7d2a-40ca-94a2-5196a6472432.jpg'
         },
         {
-            img: 'public/images/certificate/ddd.png'
+            img: 'images/certificate/ddd.png'
         },
         {
-            img: 'public/images/certificate/UC-0aec2441-8c98-4bae-b8fa-0025a8500ce0.jpg'
+            img: 'images/certificate/UC-0aec2441-8c98-4bae-b8fa-0025a8500ce0.jpg'
         },
         {
-            img: 'public/images/certificate/docker.png'
+            img: 'images/certificate/docker.png'
         },
 
         {
-            img: 'public/images/certificate/git_github.png'
+            img: 'images/certificate/git_github.png'
         },
         {
-            img: 'public/images/certificate/golang1.jpeg'
+            img: 'images/certificate/golang1.jpeg'
         },
         {
-            img: 'public/images/certificate/prometheus.jpeg'
+            img: 'images/certificate/prometheus.jpeg'
         },
         {
-            img: 'public/images/certificate/golang2.png'
+            img: 'images/certificate/golang2.png'
         },
         {
-            img: 'public/images/certificate/rabbit.png'
+            img: 'images/certificate/rabbit.png'
         },
         {
-            img: 'public/images/certificate/solid.png'
+            img: 'images/certificate/solid.png'
         },
         {
-            img: 'public/images/certificate/Screenshot 2022-12-03 at 13.37.18.png'
+            img: 'images/certificate/Screenshot 2022-12-03 at 13.37.18.png'
         },
         {
             img: ''
