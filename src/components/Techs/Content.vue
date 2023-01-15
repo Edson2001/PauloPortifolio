@@ -15,15 +15,19 @@
             img: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg'
         },
         {
+            name: 'PHP',
             img: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg'
         },
         {
+            name: 'Azure',
             img: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg'
         },
         {
+            name: 'Laravel',
             img: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-plain.svg'
         },
         {
+            name: 'Django',
             img: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg'
         },
         {
